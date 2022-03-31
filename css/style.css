@@ -10,7 +10,7 @@ body{
 
 /* header */
 header{
-    
+    background-color: white;
     height: fit-content;
     padding: 2% 0;
     /* debug */
@@ -67,7 +67,7 @@ header nav ul li{
     text-decoration: none;
     list-style-type: none;
     display:inline-block;
-    
+
 }
 /* button{
     float: right;
@@ -97,22 +97,41 @@ li button{
     text-transform: capitalize;
 }
 
+
 /* main */
 
 /* jumbotron */
 .jumbotron{
     background-color: #b4d0e7;
-    height: 200px;
+    height: fit-content;
 }
 .jumbotron .cont{
     margin:0 10%;
 }
 
-/* text */
+/* text 
 .h1{
     text-transform: capitalize;
     font-size: 30px;
+}*/
+
+
+.jumboimg{
+    display: inline-block;
+    width: 50%;
+    height: 70%;
+    /* debug */
+    /* border: 2px solid black; */
+    transform: translate(80%, 20%); 
+    
+    
 }
+.jumboimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 
 /* container sezioni */
