@@ -7,3 +7,75 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+header{
+    background-color: aqua;
+    height: 100px;
+    
+    /* position: fixed;     */
+}
+
+.logo{
+    border: 2px solid black;
+    width: min-content;
+    float: left;
+    /* margin-left: 5%; */
+
+}
+
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header .row{
+    /* border: 2px solid red; */
+    margin: 0 5%;
+}
+.colsx{
+    float: left;
+    width: 40%;
+    height: 100px;
+    background-color: azure;
+}
+
+.middle{
+    background-color: yellow;
+    width: 20%;
+    height: 100px;
+    float: left;
+
+}
+.coldx{
+    float: left;
+    width: 40%;
+    height: 100px;
+    background-color: azure;
+}
+
+header nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    display:inline-block;
+}
+button{
+    float: right;
+}
+.container{
+    margin: 0 20%;
+    background-color: blueviolet;
+    height: 300px;
+}
+.jumbotron{
+    background-color: blue;
+    height: 200px;
+    margin-top: 5%;
+}
+.jumbotron .cont{
+    margin:0 10%;
+}
+.h1{
+    text-transform: capitalize;
+    font-size: 30px;
+}
