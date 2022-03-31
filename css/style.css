@@ -8,74 +8,118 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* header */
 header{
-    background-color: aqua;
-    height: 100px;
     
+    height: fit-content;
+    padding: 2% 0;
+    /* debug */
+    /* background-color: aqua; */
     /* position: fixed;     */
 }
 
-.logo{
-    border: 2px solid black;
-    width: min-content;
-    float: left;
-    /* margin-left: 5%; */
-
+/* colonne */
+header .row{
+    /* border: 2px solid red; */
+    margin: 0 2%;
 }
-
 
 .row::after{
     content: "";
     display: table;
     clear: both;
 }
-header .row{
-    /* border: 2px solid red; */
-    margin: 0 5%;
-}
+
 .colsx{
     float: left;
     width: 40%;
-    height: 100px;
-    background-color: azure;
+    margin-right: 10%;
+    /* debug */
+    /* height: 100px; */
+    /* background-color: red; */
 }
 
-.middle{
+/* .middle{
     background-color: yellow;
     width: 20%;
     height: 100px;
     float: left;
 
-}
+} */
+
 .coldx{
     float: left;
     width: 40%;
-    height: 100px;
-    background-color: azure;
+    margin-left: 10%;
+    /* debug */
+    /* height: 100px; */
+    /* background-color: grey; */
 }
+
+/* logo e nav bar */
+/* .logo{
+    border: 2px solid black;
+    width: max-content;
+    float: left;
+
+} */
 
 header nav ul li{
     text-decoration: none;
     list-style-type: none;
     display:inline-block;
+    
 }
-button{
+/* button{
     float: right;
+} */
+
+.navbar li{
+    /* debug */
+    /* border: 1px solid black; */
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+    width: max-content;
+    margin: 0 2%;
 }
-.container{
-    margin: 0 20%;
-    background-color: blueviolet;
-    height: 300px;
+
+li button{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 8px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: capitalize;
 }
+
+/* main */
+
+/* jumbotron */
 .jumbotron{
     background-color: blue;
     height: 200px;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .jumbotron .cont{
     margin:0 10%;
 }
+
+/* text */
 .h1{
     text-transform: capitalize;
     font-size: 30px;
+}
+
+
+/* container sezioni */
+.container{
+    margin: 0 20%;
+    background-color: blueviolet;
+    height: 300px;
 }
