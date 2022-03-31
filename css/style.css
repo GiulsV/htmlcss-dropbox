@@ -14,6 +14,7 @@ header{
     height: fit-content;
     padding: 2% 0;
     /* debug */
+    border-bottom: 1px solid black;
     /* background-color: aqua; */
     /* position: fixed;     */
 }
@@ -57,12 +58,10 @@ header .row{
 }
 
 /* logo e nav bar */
-/* .logo{
-    border: 2px solid black;
-    width: max-content;
-    float: left;
-
-} */
+.logo{
+    margin: 4px 2px;
+    padding: 8px 13px;
+}
 
 header nav ul li{
     text-decoration: none;
@@ -102,9 +101,8 @@ li button{
 
 /* jumbotron */
 .jumbotron{
-    background-color: blue;
+    background-color: #b4d0e7;
     height: 200px;
-    margin-top: 3%;
 }
 .jumbotron .cont{
     margin:0 10%;
@@ -119,7 +117,7 @@ li button{
 
 /* container sezioni */
 .container{
-    margin: 0 20%;
+    margin: 8% 20%;
     background-color: blueviolet;
     height: 300px;
 }
