@@ -207,23 +207,54 @@ main{
 
 
 /* row prezzi */
+.prezzo .row{
+    margin-top: 2%;
+}
+
 .prezzo .colsx{
     float: left;
-    width: 33.33%;
+    width: 30%;
     height: fit-content;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
 
 .prezzo .colmiddle{
     float: left;
-    width: 33.33%;
+    width: 30%;
     height: fit-content;
-    border:1px solid black;
+    margin: 0 5%;
+    /* border:1px solid black; */
 }
 
 .prezzo .coldx{
     float: left;
-    width: 33.33%;
+    width: 30%;
     height: fit-content;
-    border:1px solid black;
+    /* border:1px solid black; */
 }
+
+.prezzo ul{
+    margin-left: 3%;
+
+}
+
+.prezzo .text {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 2% 2%;
+}
+
+.prezzo .list{
+    border: 1px solid grey;
+}
+
+.prezzo .list{
+    line-height: 200%;
+}
+
+
+.fa-check{
+    color: #0061ff;
+
+}
+
