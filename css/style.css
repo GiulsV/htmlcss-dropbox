@@ -85,8 +85,10 @@ header nav ul li{
     display:inline-block;
 
 }
-/* button{
-    float: right;
+
+/* .navbar{
+    max-width: 100%;
+    min-width: 20%;
 } */
 
 .navbar li{
@@ -107,19 +109,24 @@ li button{
 /* main */
 
 main{
-    margin-top: 120px;
+    margin-top: 105px;
 }
 
 /* jumbotron */
+
+.viewport{
+    width: 100%;
+    height: 100vh;
+    /* background-color: purple; */
+}
 .jumbotron{
     background-color: #b4d0e7;
-    height: 70vh;
-    width: 100%;
+    height: 73%;
 
 }
 .jumbotron .cont{
     margin: 0 10%;
-    position: relative;
+    /* position: relative; */
     /* background-color: aquamarine; */
 }
 
@@ -134,9 +141,9 @@ main{
 /* colonna sinistra con testo */
 .jumbotron .colsx{
     float: left;
-    width: 30%;
-    margin-right: 5%;
-    height: max-content;
+    width: 35%;
+    margin-right: 2%;
+    height: min-content;
     
 }
 
@@ -149,7 +156,7 @@ main{
 }
 
 .jumbotron button{
-    margin: 2% 4%;
+    margin: 5% 5%;
     display: block;
 
 }
@@ -157,14 +164,14 @@ main{
 .jumbotron p{
     width: fit-content;
     margin-bottom: 5%;
-    margin-left: 2%;
+    margin-left: 5%;
 }
 
 .fa-arrow-down{
     display: block;
     width: fit-content;
     font-size: 40px;
-    margin-left: 2%;
+    margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 15%;
     /* border: 2px solid black; */
@@ -173,8 +180,8 @@ main{
 /* colonna destra img */
 .jumbotron .coldx{
     float: left;
-    width: 55%;
-    margin-left: 5%;
+    width: 60%;
+    height: max-content;
 
 }
 
@@ -186,12 +193,12 @@ main{
 .jumboimg img{
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: scale-down;
 }
 
 /* container sezioni */
 .container{
-    margin: 8% 20%;
+    margin: 0 15%;
     background-color: peru;
     height: 300px;
 }
