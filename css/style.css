@@ -17,11 +17,21 @@ button{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
 
 }
+
+
+/* regola generale */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 
 /* header */
@@ -44,13 +54,7 @@ header .row{
     margin: 0 2%;
 }
 
-.row::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.colsx{
+header .colsx{
     float: left;
     width: 40%;
     margin-right: 10%;
@@ -59,15 +63,8 @@ header .row{
     /* background-color: red; */
 }
 
-/* .middle{
-    background-color: yellow;
-    width: 20%;
-    height: 100px;
-    float: left;
 
-} */
-
-.coldx{
+header .coldx{
     float: left;
     width: 40%;
     margin-left: 10%;
@@ -116,53 +113,85 @@ main{
 /* jumbotron */
 .jumbotron{
     background-color: #b4d0e7;
-    height: fit-content;
+    height: 70vh;
+    width: 100%;
 
 }
 .jumbotron .cont{
-    margin:0 10%;
+    margin: 0 10%;
     position: relative;
+    /* background-color: aquamarine; */
 }
 
 /* text*/
-h1 {
-    font-size: 75px;
+.jumbotron h1 {
+    font-size: 72px;
     padding: 2% 0;
-    margin: 2% 0;
+    margin: 2% 2%;
     /* background-color: beige; */
 }
-.text{
-    width: 35%;
-    height: fit-content;
+
+/* colonna sinistra con testo */
+.jumbotron .colsx{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    height: max-content;
+    
+}
+
+.jumbotron .text{
+    width: 100%;
+    /* height: fit-content; */
     /* padding: 2% 0; */
-    margin: 2% 0;
-    /* background-color: violet; */
+    margin: 2% 2%;
     text-align: left;
 }
 
 .jumbotron button{
-    margin-top: 2%;
+    margin: 2% 4%;
     display: block;
 
 }
 
-p{
+.jumbotron p{
     width: fit-content;
+    margin-bottom: 5%;
+    margin-left: 2%;
 }
 
-i{
+.fa-arrow-down{
     display: block;
+    width: fit-content;
     font-size: 40px;
-    margin-top: 2%;
-    margin-bottom: 10%;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 15%;
     /* border: 2px solid black; */
 }
 
+/* colonna destra img */
+.jumbotron .coldx{
+    float: left;
+    width: 55%;
+    margin-left: 5%;
 
+}
+
+.jumboimg{
+    width: 100%;
+    height: 100%;
+}
+
+.jumboimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
 /* container sezioni */
-/* .container{
+.container{
     margin: 8% 20%;
     background-color: peru;
     height: 300px;
-} */
+}
