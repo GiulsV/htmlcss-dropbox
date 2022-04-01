@@ -215,7 +215,7 @@ main{
     float: left;
     width: 30%;
     height: fit-content;
-    /* border:1px solid black; */
+    border:1px solid grey;
 }
 
 .prezzo .colmiddle{
@@ -223,14 +223,14 @@ main{
     width: 30%;
     height: fit-content;
     margin: 0 5%;
-    /* border:1px solid black; */
+    border:1px solid grey;
 }
 
 .prezzo .coldx{
     float: left;
     width: 30%;
     height: fit-content;
-    /* border:1px solid black; */
+    border:1px solid grey;
 }
 
 .prezzo ul{
@@ -240,17 +240,10 @@ main{
 
 .prezzo .text {
     text-align: center;
-    border: 1px solid grey;
     padding: 2% 2%;
+    border-bottom:1px solid gray;
 }
 
-.prezzo .list{
-    border: 1px solid grey;
-}
-
-.prezzo .list{
-    line-height: 200%;
-}
 
 
 .fa-check{
@@ -258,3 +251,35 @@ main{
 
 }
 
+hr{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.enterprise{
+    margin-top: 5%;
+    border: 1px solid gray;
+} 
+
+.enterprise .colsx{
+    float: left;
+    width: 80%;
+ 
+}
+
+.enterprise .coldx{
+    float: left;
+    width: 20%;   
+}
+
+
+.enterprise .text {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 1% 1%;
+}
+
+
+.list{
+    line-height: 200%;
+}
