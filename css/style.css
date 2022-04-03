@@ -26,23 +26,57 @@ button{
 }
 
 
-/* regola generale */
+/* regola generale  */
 .row::after{
     content: "";
     display: table;
     clear: both;
 }
 
-/* regole generali ul li */
+/* regole generali ul li*/
 ul li{
     text-decoration: none;
     list-style-type: none;
     margin: 0 2%;
 }
-
+ 
 
 
 /* header */
+header{
+    background-color: white;
+    height: min-content;
+    padding: 1% 0;
+    /* margin: 1% 0; */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+
+}
+
+/* colonne */
+header .row{
+    margin: 0 2%;
+}
+
+header .colsx{
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+   
+}
+
+
+header .coldx{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    
+}
+
+/* logo e nav bar */
 header{
     background-color: white;
     height: min-content;
@@ -113,14 +147,15 @@ li button{
 }
 
 
+
 /* main */
 
 main{
     margin-top: 105px;
 }
 
-/* jumbotron */
 
+/* jumbotron */
 
 .jumbotron{
     background-color: #b4d0e7;
@@ -372,9 +407,9 @@ span{
 
 /* sezione loghi box colorati */
 .card{
-    height: 200px;
-    /* background-color: green; */
-    /* width: 100%; */
+    width: 100%;
+    height: fit-content;
+    background-color: green;
 }
 
 .card .text{
@@ -389,12 +424,11 @@ span{
 }
 
 
+
 .fullwidth {
-    margin-top: 5%;
     background-color: #b4d0e7;
     /* position: absolute; */
     width: 100%;
-    height: fit-content;
     left: 0;
 }
 
@@ -489,12 +523,10 @@ span{
 footer{
     background-color: black;
     color: white;
-    /* padding-top:20px; */
 }
 
-.colquest{
+.listafooter{
     float: left;
     width: 20%;
     margin-top: 2%;
-    /* border: 2px solid yellow; */
 }
