@@ -109,9 +109,7 @@ header .colsx{
     float: left;
     width: 40%;
     margin-right: 10%;
-    /* debug */
-    /* height: 100px; */
-    /* background-color: red; */
+
 }
 
 
@@ -119,9 +117,7 @@ header .coldx{
     float: left;
     width: 40%;
     margin-left: 10%;
-    /* debug */
-    /* height: 100px; */
-    /* background-color: grey; */
+
 }
 
 /* logo e nav bar */
@@ -137,14 +133,9 @@ header nav ul li{
 
 }
 
-/* .navbar{
-    max-width: 100%;
-    min-width: 20%;
-} */
 
 .navbar li{
-    /* debug */
-    /* border: 1px solid black; */
+
     text-transform: capitalize;
     text-align: center;
     font-size: 20px;
@@ -155,7 +146,6 @@ header nav ul li{
 li button{
     text-transform: capitalize;
 }
-
 
 
 /* main */
@@ -175,8 +165,7 @@ main{
 }
 .jumbotron .cont{
     margin: 0 10%;
-    /* position: relative; */
-    /* background-color: aquamarine; */
+
 }
 
 /* text*/
@@ -192,14 +181,11 @@ main{
     width: 35%;
     margin-right: 2%;
     margin-top: 5%;
-    height: min-content;
-    
+    height: min-content;    
 }
 
 .jumbotron .text{
     width: 100%;
-    /* height: fit-content; */
-    /* padding: 2% 0; */
     margin: 2% 2%;
     text-align: left;
 }
@@ -207,7 +193,6 @@ main{
 .jumbotron button{
     margin: 5% 5%;
     display: block;
-
 }
 
 .jumbotron p{
@@ -223,7 +208,7 @@ main{
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 15%;
-    /* border: 2px solid black; */
+
 }
 
 /* colonna destra img */
@@ -247,8 +232,6 @@ main{
 }
 
 
-
-
 /* row prezzi */
 .prezzo .row{
     margin-top: 2%;
@@ -257,23 +240,23 @@ main{
 .prezzo .colsx{
     float: left;
     width: 30%;
-    height: fit-content;
-    border:1px solid grey;
+    height: 100vh;
+    border:1px solid rgba(163, 163, 163, 0.589);
 }
 
 .prezzo .colmiddle{
     float: left;
     width: 30%;
-    height: fit-content;
+    height: 100vh;
     margin: 0 5%;
-    border:1px solid grey;
+    border:1px solid rgba(163, 163, 163, 0.589);
 }
 
 .prezzo .coldx{
     float: left;
     width: 30%;
-    height: fit-content;
-    border:1px solid grey;
+    height: 100vh;
+    border:1px solid rgba(163, 163, 163, 0.589);
 }
 
 .prezzo ul{
@@ -284,14 +267,16 @@ main{
 .prezzo .text {
     text-align: center;
     padding: 2% 2%;
-    border-bottom:1px solid gray;
+    border-bottom:1px solid rgba(163, 163, 163, 0.589);
 }
 
-
-
+/* check blu */
 .fa-check{
     color: #0061ff;
+}
 
+i{
+    padding: 0.5em
 }
 
 hr{
@@ -301,13 +286,12 @@ hr{
 
 .enterprise{
     margin-top: 5%;
-    border: 1px solid gray;
+    border: 1px solid rgba(163, 163, 163, 0.589);
 } 
 
 .enterprise .colsx{
     float: left;
-    width: 80%;
- 
+    width: 80%; 
 }
 
 .enterprise .coldx{
@@ -318,13 +302,13 @@ hr{
 
 .enterprise .text {
     text-align: center;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.589);
     padding: 1% 1%;
 }
 
 
-.list{
-    line-height: 200%;
+.list li{
+    line-height: 2.5;
 }
 
 span{
@@ -415,23 +399,25 @@ span{
 /* sezione loghi box colorati */
 .card{
     width: 100%;
-    height: fit-content;
+    height: auto;
 }
 
 .card .text{
-    width: 45%;
+    width: 40%;
     margin: 2% 15%;
-    height: fit-content;
-    /* position: relative; */
+    height: max-content
 }
 
 .card .text p{
-    font-size: 35px;
-    font-weight: bold;
+    font-size: 38px;
+    font-weight: 700;
     margin-bottom: 5%;
 }
 
-
+.card .text a{
+    color: #0061ff;
+    font-size: 18px;
+}
 
 .fullwidth .square{
 
@@ -588,7 +574,7 @@ span{
 /* sezione f.a.q. */
 
 .domande p{
-    font-weight: bold;
+    font-weight: 800;
     font-size: 25px;
     border-bottom: 1px solid lightgray;
     padding-bottom: 5%;
@@ -596,8 +582,8 @@ span{
 .domande li{
     border-bottom: 1px solid lightgray;
     padding: 3% 0; 
-    font-weight: bold;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -618,7 +604,7 @@ footer{
 .listafooter{
     float: left;
     width: 20%;
-    padding: 2% 2%;
+    padding: 8% 2%;
     line-height: 2;
 }
 .listafooter h3{
@@ -633,7 +619,7 @@ footer{
 #line{
     color: white;
     width: 10%;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 2%;
 }
 .ita{
