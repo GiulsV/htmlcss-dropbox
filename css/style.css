@@ -435,22 +435,20 @@ span{
 
 
 .fullwidth .square{
-    
+
     position: relative;
     width: 100%;
-    height: fit-content;
+    height: 100vh;
     left: 0;
-    background-color: pink;
 }
 
   /* misure colonne */
 
 .fullwidth .coldx{
     float: right;
-    width: 15%;
+    width: 30%;
     height: 20%;
-    border: 1px solid black;
-    padding: 5% 5%;    
+    border: 1px solid black;   
 }
 
 
@@ -489,18 +487,61 @@ span{
 
 }
 
-
 /* colonna sinistra */
 .fullwidth .colsx {
     float: left;
-    width: 15%;
+    width: 30%;
     height: fit-content;
     border: 1px solid black;
-    padding: 5% 5%;
+    /* padding: 5% 5%; */
    
 }
 
+.client{
+    width: 230px;
+    height: 250px;
+    float: left;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:2% 2%;
+}
 
+/* sinistra */
+#designit{
+    background-image: url("../img/designit.svg");
+}
+
+#arizona{
+    background-image: url("../img/arizona_state_university.svg");
+}
+
+
+#florida{
+    background-image: url("../img/university_of_florida.svg");
+}
+
+#topps{
+    background-image: url("../img/topps.svg");
+}
+
+/* destra */
+
+#world{
+    background-image: url("../img/world_bicycle_relief.svg");
+}
+
+#hearst{
+    background-image: url("../img/hearst_corp.svg");
+}
+
+#lonely{
+    background-image: url("../img/lonely_planet.svg");
+}
+
+#clear{
+    background-image: url("../img/clear_channel.svg");
+}
 
 /* sezione full width blu */
 .fullwidth .prova{
