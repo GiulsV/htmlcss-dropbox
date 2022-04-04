@@ -462,16 +462,10 @@ span{
     margin: 8% 8%;
 }
 .logobrand{
-    width: 20%;
-    height: 10%;
-    margin: 5% 0;
+    width: 25%;
+    height: 15%;
+    margin: 10% 0;
     
-}
-
-.containercolonna hr{
-    width: 10%;
-    color: gray;
-    margin-left: 0;
 }
 
 .logobrand img{
@@ -479,9 +473,19 @@ span{
     height: 100%;
     object-fit: contain;
 }
-
+.containercolonna hr{
+    width: 10%;
+    color: gray;
+    margin-left: 0;
+}
 .textbrand{
-    margin: 5% 0;
+    margin: 10% 0;
+
+}
+
+#lead{
+    margin-bottom: 10%;
+    padding-bottom: 10px;
 
 }
 
@@ -495,7 +499,7 @@ span{
 
 .client{
     width: 249px;
-    height: 250px;
+    height: 231px;
     float: left;
     background-size: 70%;
     background-repeat: no-repeat;
