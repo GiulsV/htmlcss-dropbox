@@ -73,16 +73,16 @@ header .row{
 
 header .colsx{
     float: left;
-    width: 40%;
-    margin-right: 10%;
+    width: 50%;
+    /* margin-right: 10%; */
    
 }
 
 
 header .coldx{
-    float: left;
-    width: 40%;
-    margin-left: 10%;
+    float: right;
+    width: 50%;
+    /* margin-left: 10%; */
     
 }
 
@@ -441,14 +441,20 @@ span{
     left: 0;
 }
 
-  /* misure colonne */
 
+/* colonna destra */
 .fullwidth .coldx{
-    float: right;
+    float: left;
     width: 30%;
-    height: 20%;
+    height: fit-content;
 }
-
+/* colonna sinistra */
+.fullwidth .colsx {
+    float: left;
+    width: 30%;
+    height: fit-content;
+   
+}
 
 /* colonna centrale */
 .fullwidth .colmiddle{
@@ -489,67 +495,96 @@ span{
 
 }
 
-/* colonna sinistra */
-.fullwidth .colsx {
-    float: left;
-    width: 30%;
-    height: fit-content;
-   
-}
-
+/* div quadrati loghi */
 .client{
     width: 249px;
-    height: 231px;
+    height: 249px;
     float: left;
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* padding:2% 2%; */
+    /* filter: invert(1); */  
+    /* fill: white;   */
 }
 
-/* sinistra */
+/* sinistra  */
 #designit{
-    background-image: url("../img/designit.svg");
-    background-color: lightgreen;
+    
+    background-color: rgb(151, 243, 151);
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    padding: 20% 20%;
+
 }
 
 #arizona{
-    background-image: url("../img/arizona_state_university.svg");
+    
     background-color: rgb(105, 18, 18);
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    padding: 20% 20%;
+
 }
 
 
 #florida{
-    background-image: url("../img/university_of_florida.svg");
+    
     background-color: rgb(16, 96, 172);
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    padding: 20% 20%;
 }
 
 #topps{
-    background-image: url("../img/topps.svg");
+    
     background-color: red;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    padding: 20% 20%;
 }
 
 /* destra */
 
 #world{
-    background-image: url("../img/world_bicycle_relief.svg");
+    
     background-color: rgb(129, 19, 19);
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    padding: 20% 20%;
 }
 
 #hearst{
-    background-image: url("../img/hearst_corp.svg");
+    
     background-color: lightblue;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    padding: 20% 20%;
 }
 
 #lonely{
-    background-image: url("../img/lonely_planet.svg");
+    
     background-color: rgb(29, 29, 207);
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    padding: 20% 20%;
 }
 
 #clear{
-    background-image: url("../img/clear_channel.svg");
+    
     background-color: rgb(179, 182, 10);
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    padding: 20% 20%;
 }
+
+
+
+
 
 /* sezione full width blu */
 
