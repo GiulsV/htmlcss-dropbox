@@ -510,37 +510,45 @@ span{
 /* sinistra */
 #designit{
     background-image: url("../img/designit.svg");
+    background-color: lightgreen;
 }
 
 #arizona{
     background-image: url("../img/arizona_state_university.svg");
+    background-color: rgb(105, 18, 18);
 }
 
 
 #florida{
     background-image: url("../img/university_of_florida.svg");
+    background-color: rgb(16, 96, 172);
 }
 
 #topps{
     background-image: url("../img/topps.svg");
+    background-color: red;
 }
 
 /* destra */
 
 #world{
     background-image: url("../img/world_bicycle_relief.svg");
+    background-color: rgb(129, 19, 19);
 }
 
 #hearst{
     background-image: url("../img/hearst_corp.svg");
+    background-color: lightblue;
 }
 
 #lonely{
     background-image: url("../img/lonely_planet.svg");
+    background-color: rgb(29, 29, 207);
 }
 
 #clear{
     background-image: url("../img/clear_channel.svg");
+    background-color: rgb(179, 182, 10);
 }
 
 /* sezione full width blu */
