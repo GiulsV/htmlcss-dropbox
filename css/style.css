@@ -45,7 +45,7 @@ ul li{
 /* header */
 header{
     background-color: white;
-    height: min-content;
+    height:25vh;
     padding: 1% 0;
     /* margin: 1% 0; */
     width: 100%;
@@ -59,6 +59,9 @@ header{
 /* colonne */
 header .row{
     margin: 0 2%;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 header .colsx{
@@ -159,7 +162,8 @@ main{
 
 .jumbotron{
     background-color: #b4d0e7;
-    height: 650px;
+    height: 675px;
+    width: 100%;
 
 }
 .jumbotron .cont{
@@ -173,7 +177,6 @@ main{
     font-size: 72px;
     padding-top: 5%;
     margin: 0 2%;
-    /* background-color: beige; */
 }
 
 /* colonna sinistra con testo */
@@ -181,6 +184,7 @@ main{
     float: left;
     width: 35%;
     margin-right: 2%;
+    margin-top: 5%;
     height: min-content;
     
 }
@@ -220,6 +224,7 @@ main{
     float: left;
     width: 60%;
     height: max-content;
+    margin-top: 5%;
 
 }
 
@@ -515,6 +520,25 @@ span{
 
 
 /* sezione f.a.q. */
+
+.domande p{
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5%;
+}
+.domande li{
+    border-bottom: 1px solid lightgray;
+    padding: 3% 0; 
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+}
+
+.fa-chevron-down{
+    float: right;
+    margin-right: 3%;
+}
 
 
 
