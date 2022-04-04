@@ -437,7 +437,7 @@ span{
 
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 128vh;
     left: 0;
 }
 
@@ -446,20 +446,20 @@ span{
 .fullwidth .coldx{
     float: left;
     width: 30%;
-    height: 50vh;
+    height: 64vh;
 }
 /* colonna sinistra */
 .fullwidth .colsx {
     float: left;
     width: 30%;
-    height: 50vh;   
+    height: 64vh;   
 }
 
 /* colonna centrale */
 .fullwidth .colmiddle{
     float: left;
     width: 40%;
-    height: max-content;
+    height: 64vh;
     background-color: lightgray;
 }
 
@@ -506,44 +506,44 @@ span{
     width: 100%;
     height: 100%;
     padding: 20% 20%;
-    /* filter: invert(1);   */
+    filter: invert(1);  
 }
 
 
 /* sinistra  */
 #designit{    
-    background-color: #a2d39b;
+    background-color: #5d2c64;
 }
 
 #arizona{    
-    background-color: #61082b;
+    background-color: #9ef7d4;
 }
 
 
 #florida{    
-    background-color: #0093ce;    
+    background-color: #ff6c31;    
 }
 
 #topps{    
-    background-color: #ff1c1c;    
+    background-color: #00e3e3;    
 }
 
 /* destra */
 
 #world{    
-    background-color: #d5001f;    
+    background-color: #2affe0;   
 }
 
 #hearst{    
-    background-color: #b4d0e7;    
+    background-color: #4b2f18;    
 }
 
 #lonely{    
-    background-color: #0d2481;   
+    background-color: #f2db7e;   
 }
 
 #clear{    
-    background-color: #ffd830;    
+    background-color: #0027cf;    
 }
 
 
@@ -568,14 +568,14 @@ span{
     font-size: 50px;
     font-weight: bolder;
     color: rgb(97, 15, 15);
-    margin-top: 10%;   
+    margin-top: 12%;   
 }
 
 .coldxbtn{
     float: left;
     width: 25%;
     margin-left: 15%;
-    margin-top: 10%;
+    margin-top: 12%;
     
 }
 .coldxbtn button{
