@@ -446,21 +446,20 @@ span{
 .fullwidth .coldx{
     float: left;
     width: 30%;
-    height: fit-content;
+    height: 50vh;
 }
 /* colonna sinistra */
 .fullwidth .colsx {
     float: left;
     width: 30%;
-    height: fit-content;
-   
+    height: 50vh;   
 }
 
 /* colonna centrale */
 .fullwidth .colmiddle{
     float: left;
     width: 40%;
-    height: fit-content;
+    height: max-content;
     background-color: lightgray;
 }
 
@@ -491,95 +490,60 @@ span{
 
 #lead{
     margin-bottom: 10%;
-    padding-bottom: 10px;
+
 
 }
 
 /* div quadrati loghi */
 .client{
-    width: 249px;
-    height: 249px;
+    width: 50%;
+    height: 50%;
     float: left;
-    /* filter: invert(1); */  
-    /* fill: white;   */
 }
+
+.client img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    padding: 20% 20%;
+    /* filter: invert(1);   */
+}
+
 
 /* sinistra  */
-#designit{
-    
-    background-color: rgb(151, 243, 151);
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-    padding: 20% 20%;
-
+#designit{    
+    background-color: #a2d39b;
 }
 
-#arizona{
-    
-    background-color: rgb(105, 18, 18);
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-    padding: 20% 20%;
-
+#arizona{    
+    background-color: #61082b;
 }
 
 
-#florida{
-    
-    background-color: rgb(16, 96, 172);
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-    padding: 20% 20%;
+#florida{    
+    background-color: #0093ce;    
 }
 
-#topps{
-    
-    background-color: red;
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-    padding: 20% 20%;
+#topps{    
+    background-color: #ff1c1c;    
 }
 
 /* destra */
 
-#world{
-    
-    background-color: rgb(129, 19, 19);
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-    padding: 20% 20%;
+#world{    
+    background-color: #d5001f;    
 }
 
-#hearst{
-    
-    background-color: lightblue;
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-    padding: 20% 20%;
+#hearst{    
+    background-color: #b4d0e7;    
 }
 
-#lonely{
-    
-    background-color: rgb(29, 29, 207);
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-    padding: 20% 20%;
+#lonely{    
+    background-color: #0d2481;   
 }
 
-#clear{
-    
-    background-color: rgb(179, 182, 10);
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-    padding: 20% 20%;
+#clear{    
+    background-color: #ffd830;    
 }
 
 
