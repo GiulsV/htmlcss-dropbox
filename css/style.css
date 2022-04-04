@@ -39,7 +39,14 @@ ul li{
     list-style-type: none;
     margin: 0 2%;
 }
- 
+
+
+/* container sezioni */
+.container{
+    margin: 10% 15%;
+    height: fit-content;
+    position: relative;
+}
 
 
 /* header */
@@ -239,12 +246,7 @@ main{
     object-fit: scale-down;
 }
 
-/* container sezioni */
-.container{
-    margin: 10% 15%;
-    height: fit-content;
-    position: relative;
-}
+
 
 
 /* row prezzi */
@@ -414,12 +416,14 @@ span{
 .card{
     width: 100%;
     height: fit-content;
-    background-color: green;
 }
 
 .card .text{
     width: 45%;
-    /* background-color: red; */
+    margin: 2% 15%;
+    height: fit-content;
+    background-color: green;
+    /* position: relative; */
 }
 
 .card .text p{
@@ -430,11 +434,13 @@ span{
 
 
 
-.fullwidth {
-    background-color: #b4d0e7;
-    /* position: absolute; */
+.fullwidth .square{
+    
+    position: relative;
     width: 100%;
+    height: fit-content;
     left: 0;
+    background-color: pink;
 }
 
   /* misure colonne */
@@ -497,12 +503,19 @@ span{
 
 
 /* sezione full width blu */
+.fullwidth .prova{
+    background-color: #b4d0e7;
+    width: 100%;
+    height: 50vh;
+}
 .colsxtext{
     float: left;
     width: 60%; 
     font-size: 50px;
     font-weight: bolder;
     color: rgb(97, 15, 15);
+    margin-top: 10%;
+
     
 }
 
@@ -510,6 +523,7 @@ span{
     float: left;
     width: 25%;
     margin-left: 15%;
+    margin-top: 10%;
     
 }
 .coldxbtn button{
